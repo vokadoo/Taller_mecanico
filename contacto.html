@@ -12,62 +12,103 @@
     <title>Rayo Makween</title>
   </head>
   <body>
-      <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/kuchau.png" alt="" width="30" height="24">
+    <header class="header-bg">
+        <nav class="navbar navbar-expand-lg navbar-light header-bg pt-3 pb-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/kuchau.png"  width="40" height="30"> Rayo Makween
               </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html" tabindex="-1" aria-disabled="true">Rayo Makween</a>
-              <a class="nav-link" href="trabajos.html" tabindex="-1" aria-disabled="true">Trabajos</a>
-              <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-uppercase" href="trabajos.html" tabindex="-1" aria-disabled="true">Trabajos</a>
+                        <a class="nav-link text-uppercase" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                        <a class="nav-link text-uppercase" href="inicio_sesion.html" tabindex="-1" aria-disabled="true">Iniciar Sesion</a>
+                        <a class="nav-link text-uppercase" href="registro.html" tabindex="-1" aria-disabled="true">Registro</a>
+                    </div>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                    <button class="btn btn-secondary" type="submit">Buscar</button>
+                </form>
             </div>
-          </div>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-secundary" type="submit">Buscar</button>
-          </form>
-        </div>
-      </nav>
+        </nav>
     </header>
-    <main>
-         <div class="row pt-3 justify-content-center">
-           <div class="col-lg-5 col-md-5 col-10">
-               <h3>Contacto</h3>
-             <div class="card-body">
-               <form>
-                <div class="mb-3">
-                  <label for="nombre-txt" class="form-label">Nombre</label>
-                  <input type="text" id="nombre-txt" class="form-control">
-              </div>
-              <div class="mb-3">
-                <label for="nombre-txt" class="form-label">Numero de contacto</label>
-                <input type="text" id="nombre-txt" class="form-control">
-              </div>
-              <div class="mb-3">
-                <label for="Descripcion-txt" class="form-label">Problema o Consulta</label>
-                <input type="text" id="Descripcion-txt" class="form-control">
+    <main class="container-fluid pt-5 ">
+        <div class="row pt-3 justify-content-center">
+            <div class="col-lg-4 col-md-4 col-10">
+                <h2 class="bg-footer text-center text-white pb-2">Contacto</h2>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre-txt" class="form-label">Nombre</label>
+                            <input type="text" id="nombre-txt" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nombre-txt" class="form-label">Numero de contacto</label>
+                            <input type="text" id="nombre-txt" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Descripcion-txt" class="form-label">Problema o Consulta</label>
+                            <input type="text" id="Descripcion-txt" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nombre-txt" class="form-label">Correo Electronico</label>
+                            <input type="text" id="nombre-txt" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn btn-outline-success">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="mb-3">
-              <label for="nombre-txt" class="form-label">Correo Electronico</label>
-              <input type="text" id="nombre-txt" class="form-control">
-          </div>
-              <div class="col-6">
-                <button type="button" class="btn-success">Enviar</button>
-            </div>
-               </form>
-             </div>
-           </div>
-         </div>
+        </div>
     </main>
 
-    <footer>
+    <footer class="bg-footer text-white pt-4 pb-4 mt-10">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-white">Rayo Makween</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero aliquid unde ratione! Doloribus
+                    repellendus quo necessitatibus accusantium aliquid suscipit eum maxime repellat odio pariatur
+                    atque, nam enim quisquam quia exercitationem.</p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-white">Rayo Makween</h5>
+                <p>
+                    <a href="index.html" class="text-white" style="text-decoration: none;">Inicio</a>
+                </p>
+                <p>
+                    <a href="trabajos.html" class="text-white" style="text-decoration: none;">Trabajos</a>
+                </p>
+                <p>
+                    <a href="contacto.html" class="text-white" style="text-decoration: none;">Contacto</a>
+                </p>
+                <p>
+                    <a href="inicio_sesion.html" class="text-white" style="text-decoration: none;">Iniciar
+                        Sesion</a>
+                </p>
+                <p>
+                    <a href="index.html" class="text-white" style="text-decoration: none;">Registro</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-aito mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-white">Contacto</h5>
+                <p>+569 99887766</p>
+                <p>Rayo.Makween@gmail.com</p>
+                <p>Avenida Siempre viva #44 Springfield.</p>
+                <p><a href="https://www.facebook.com"><img src="img/facebook.png" class="img-fluid"
+                            width="40px"></a>
+                </p>
+            </div>
+        </div>
 
+    </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 

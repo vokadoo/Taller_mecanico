@@ -1,12 +1,14 @@
 .header-bg{
-    background: #E5E8E8 ;
+    background: #9ABDC6;
 
 }
-
-main{
-    background: #99A3A4;
+.main-bg{
+    background:#C1E3EC;
 }
 
-footer{
-    background: #34495E;
+.bg-footer{
+    background:#2D5E6B;
+}
+.mt-10{
+    margin-top: 11%;
 }
